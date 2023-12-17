@@ -699,11 +699,15 @@ main {
 .modal-close-btn ion-icon { --ionicon-stroke-width: 50px; }
 
 .modal-avatar-box {
-  background: var(--bg-gradient-onyx);
+  /* background: var(--bg-gradient-onyx); */
+  opacity: 100%;
+
+  
   width: max-content;
   border-radius: 14px;
   margin-bottom: 15px;
   box-shadow: var(--shadow-2);
+
 }
 
 .modal-img-wrapper > img { display: none; }
